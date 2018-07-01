@@ -1,0 +1,89 @@
+body {
+    background: #f8f8f8;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+a:link {
+    color: #497DDD;
+}
+
+a:hover {
+    color: #154088;
+}
+
+a:active {
+    color: #497DDD;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 3px 5px;
+    padding: 3px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.catalog-img img {
+    width: 250px;
+}
+
+.product-img img, .recommend-img img {
+    width: 250px;
+    padding: 10px;
+    background-color: #FFFAFA 
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.recommend-img img{
+    width: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.product {
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400 line-height: 24px;
+    text-align: left;
+}
+
+.characteristics {
+    color: #555555;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    list-style-image: url(../image/icon.png);
+}
+
+.contacts input {
+    height: 20px;
+    width: 400px;
+    margin-bottom: 2px;
+}
+
+.contacts textarea,input {
+    font-size: 16px;
+}
